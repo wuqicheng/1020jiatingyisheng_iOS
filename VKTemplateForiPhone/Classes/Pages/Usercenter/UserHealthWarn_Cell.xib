@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="UserHealthWarn_Cell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="道路交通法规" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3J-Ko-wvw">
+                        <rect key="frame" x="25" y="16" width="260" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="lpP-5R-QSn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015-11-11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBk-za-Vfi">
+                        <rect key="frame" x="25" y="43" width="260" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="6Bt-L5-lCe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLu-r3-lyh">
+                        <rect key="frame" x="0.0" y="74" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="8aW-Cq-joS"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="project_icon_arrow_right.png" translatesAutoresizingMaskIntoConstraints="NO" id="2f7-cN-0DQ">
+                        <rect key="frame" x="295" y="30" width="8" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="abw-15-0Lt"/>
+                            <constraint firstAttribute="height" constant="15" id="xmy-U1-nIL"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qLu-r3-lyh" secondAttribute="trailing" id="0U8-sD-wHK"/>
+                    <constraint firstItem="qLu-r3-lyh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3Q1-lG-W8F"/>
+                    <constraint firstAttribute="trailing" secondItem="2f7-cN-0DQ" secondAttribute="trailing" constant="17" id="CwD-5a-RvD"/>
+                    <constraint firstItem="W3J-Ko-wvw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="IQD-10-RR6"/>
+                    <constraint firstItem="OBk-za-Vfi" firstAttribute="top" secondItem="W3J-Ko-wvw" secondAttribute="bottom" constant="6" id="N75-5W-CZw"/>
+                    <constraint firstItem="W3J-Ko-wvw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="f3G-jT-H3r"/>
+                    <constraint firstItem="2f7-cN-0DQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="m1U-i6-Xuj"/>
+                    <constraint firstAttribute="bottom" secondItem="qLu-r3-lyh" secondAttribute="bottom" id="mNZ-Hp-aE0"/>
+                    <constraint firstItem="OBk-za-Vfi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="y6b-kZ-wse"/>
+                    <constraint firstAttribute="trailing" secondItem="W3J-Ko-wvw" secondAttribute="trailing" constant="35" id="zBh-Cr-aFo"/>
+                    <constraint firstAttribute="trailing" secondItem="OBk-za-Vfi" secondAttribute="trailing" constant="35" id="zXa-Pr-AZM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="timeLabel" destination="OBk-za-Vfi" id="JGK-bc-5IF"/>
+                <outlet property="titleLabel" destination="W3J-Ko-wvw" id="OLQ-BS-uI7"/>
+            </connections>
+            <point key="canvasLocation" x="293" y="361"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="project_icon_arrow_right.png" width="13" height="22"/>
+    </resources>
+</document>

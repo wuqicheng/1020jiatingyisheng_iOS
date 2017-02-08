@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Static/static.h"
+    #import "CommonUtility.h"
+    #import "DateUtility.h"
+    #import "AppsBaseViewController.h"
+    #import "SVProgressHUD.h"
+    #import "static.h"
+    #import "UIView+Common.h"
+#endif
+
+#define UMSocial_Key @"5450e6c6fd98c566ca01658e"
+
+#define AppKeyWindow [[UIApplication sharedApplication] keyWindow]

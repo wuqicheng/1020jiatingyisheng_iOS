@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>62A57F4B-C841-40EE-A46D-3820666C0E86</string>
+	<key>IDESourceControlProjectName</key>
+	<string>aixiche</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>93ECDBAB14EEF6E72FA5B473512520E0FCC47241</key>
+		<string>https://git.oschina.net/mylifeteam/AppTemplate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/VKTemplateForiPhone/aixiche.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>93ECDBAB14EEF6E72FA5B473512520E0FCC47241</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/mylifeteam/AppTemplate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>93ECDBAB14EEF6E72FA5B473512520E0FCC47241</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>93ECDBAB14EEF6E72FA5B473512520E0FCC47241</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppTemplate</string>
+		</dict>
+	</array>
+</dict>
+</plist>
